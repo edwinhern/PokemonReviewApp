@@ -11,5 +11,8 @@
 
         // BirthDate represents the creation date of this specific Pokemon record in the database
         public DateTime BirthDate { get; set; }
+
+        // Collection of Reviews for the Pokemon
+        public ICollection<Review> Reviews { get; set; }
     }
 }

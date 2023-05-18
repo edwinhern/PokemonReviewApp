@@ -8,6 +8,9 @@
 
         // Name of the Country
         public string Name { get; set; }
-	}
+
+        // Collection of Owners associated with the Country
+        public ICollection<Owner> Owners { get; set; }
+    }
 }
 

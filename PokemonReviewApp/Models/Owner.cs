@@ -11,6 +11,10 @@
 
         // Name of the Gym they are associated with
 		public string Gym { get; set; }
-	}
+
+        // Country where the Owner is located
+        public Country Country { get; set; }
+
+    }
 }
 

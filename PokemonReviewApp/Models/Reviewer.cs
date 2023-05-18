@@ -1,5 +1,4 @@
-﻿using System;
-namespace PokemonReviewApp.Models
+﻿namespace PokemonReviewApp.Models
 {
     // Reviewer model to represent the Reviewer data inside the MySQL database.
     public class Reviewer
@@ -12,6 +11,9 @@ namespace PokemonReviewApp.Models
 
         // Last Name of the Reviewer
         public string LastName { get; set; }
+
+        // Collection of Reviews written by the Reviewer
+        public ICollection<Review> Reviews { get; set; }
     }
 }
 
