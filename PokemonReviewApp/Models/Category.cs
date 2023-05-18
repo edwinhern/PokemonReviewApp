@@ -8,6 +8,9 @@
 
         // Name of the Category
         public string Name { get; set; }
+
+        // Collection of many-to-many join entities that associates Pokemon with Categories.
+        public ICollection<PokemonCategory> PokemonCategories { get; set; }
     }
 }
 

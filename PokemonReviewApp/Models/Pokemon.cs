@@ -14,5 +14,11 @@
 
         // Collection of Reviews for the Pokemon
         public ICollection<Review> Reviews { get; set; }
+
+        // Collection of many-to-many join entities that associates Pokemon with Owners.
+        public ICollection<PokemonOwner> PokemonOwners { get; set; }
+
+        // Collection of many-to-many join entities that associates Pokemon with Categories.
+        public ICollection<PokemonCategory> PokemonCategories { get; set; }
     }
 }

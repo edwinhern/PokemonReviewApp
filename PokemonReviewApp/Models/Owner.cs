@@ -15,6 +15,8 @@
         // Country where the Owner is located
         public Country Country { get; set; }
 
+        // Collection of many-to-many join entities that associates Pokemon with Owners.
+        public ICollection<PokemonOwner> PokemonOwners { get; set; }
     }
 }
 
