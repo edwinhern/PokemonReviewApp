@@ -13,9 +13,16 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Models\" />
+    <None Remove="Models\MODELS.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\MODELS.md" />
   </ItemGroup>
 </Project>

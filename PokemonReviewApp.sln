@@ -5,6 +5,12 @@ VisualStudioVersion = 25.0.1705.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonReviewApp", "PokemonReviewApp\PokemonReviewApp.csproj", "{468A1960-A59B-4870-A4F7-C5BFC5214917}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{600ADEBE-69E4-4E90-8ABE-0E058F3E076B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		MODELS.md = MODELS.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
