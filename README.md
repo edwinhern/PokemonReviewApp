@@ -13,4 +13,4 @@ The API includes several models, including:
 - `Review`: Represents a review for a Pokemon.
 - `Reviewer`: Represents the person who wrote a review.
 
-For detailed descriptions of these models and their properties, please see the [MODELS.md](./PokemonReviewApp/PokemonReviewApp/Models/MODELS.md) file.
+For detailed descriptions of these models and their properties, please see the [MODELS.md](./PokemonReviewApp/Models/MODELS.md) file.
