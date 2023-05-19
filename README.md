@@ -1,3 +1,5 @@
+[![.NET Core CI](https://github.com/edwinhern/PokemonReviewApp/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/edwinhern/PokemonReviewApp/actions/workflows/ci.yml)
+
 # Pokemon Review App
 
 This is a web API for reviewing Pokemon, built with ASP.NET 6.
