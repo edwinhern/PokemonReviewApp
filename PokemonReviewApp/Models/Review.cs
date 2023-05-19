@@ -12,6 +12,9 @@
         // Text included with the Review
         public string Text { get; set; }
 
+        // Rating of the Review
+        public int Rating { get; set; }
+
         // Reviewer who wrote the Review
         public Reviewer Reviewer { get; set; }
 

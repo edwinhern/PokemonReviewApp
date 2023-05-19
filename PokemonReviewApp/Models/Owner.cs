@@ -6,11 +6,14 @@
         // Unique ID for each Owner
         public int Id { get; set; }
 
-        // Name of the Owner
-        public string Name { get; set; }
+        // First Name of the Owner
+        public string FirstName { get; set; }
+
+        // Last Name of the Owner
+        public string LastName { get; set; }
 
         // Name of the Gym they are associated with
-		public string Gym { get; set; }
+        public string Gym { get; set; }
 
         // Country where the Owner is located
         public Country Country { get; set; }
