@@ -1,4 +1,5 @@
 [![.NET Core CI](https://github.com/edwinhern/PokemonReviewApp/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/edwinhern/PokemonReviewApp/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/edwinhern/PokemonReviewApp/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/edwinhern/PokemonReviewApp/actions/workflows/codeql.yml)
 
 # Pokemon Review App
 
